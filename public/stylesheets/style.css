@@ -1,0 +1,135 @@
+
+/*  NAVIGATION  */
+
+.nav{
+
+}
+
+.nav li{
+  display:inline-block;
+}
+
+.nav a{
+  text-transform: uppercase;
+  background: transparent;
+  padding:20px;
+}
+
+.nav a:hover{
+  background:white;
+  text-decoration: none;
+}
+
+.col-md-4 img{
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+/* HEADER */
+
+header{
+  min-height:300px;
+}
+
+/* ABOUT ME */
+
+.aboutMe{
+  padding:20px;
+}
+
+/* SKILLS */
+
+.skills{
+  background: #282828;
+}
+
+.skills .col-sm-6{
+  padding:20px;
+}
+
+.skills p{
+  color:#fff;
+  text-align: center;
+}
+
+.skills i{
+  font-size:70px;
+  width: 100%;
+  text-align: center;
+}
+.skills .fa-html5{
+  color:#E44D26;
+}
+
+.skills .fa-css3-alt{
+  color:#0170BA;
+}
+
+.skills .fa-js-square{
+  color:#F0DB4F;
+}
+
+.skills .fa-php{
+  color:#8993BE;
+}
+
+.skills .col{
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+}
+
+.skills .button{
+  text-transform: uppercase;
+  padding:10px;
+  color:#fff;
+  text-decoration: none;
+  border:1px solid #fff;
+  background:transparent;
+  -webkit-transition: 0.1s background-color linear, 0.1s color linear;
+  -moz-transition: 0.1s background-color linear, 0.1s color linear;
+  -o-transition: 0.1s background-color linear, 0.1s color linear;
+  transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.skills .button:hover{
+  color:#000;
+  border:1px solid #fff;
+  background:#fff;
+}
+
+/* FOOTER */
+
+footer{
+  background: #282828;
+}
+
+footer p{
+  text-align: center;
+  color:#fff;
+  margin-bottom: 0px;
+}
+
+.socialIcons{
+  width:max-content;
+  margin:0 auto;
+  padding-left: 0;
+}
+
+.socialIcons li{
+  display:inline-block;
+  padding:10px;
+}
+
+.socialIcons a{
+  width:50px;
+  height:50px;
+}
+
+.socialIcons i{
+  font-size:40px;
+  color:#fff;
+}
